@@ -1,0 +1,20 @@
+{
+  "name": "mrgrain/jumpstart-deploy",
+  "description": "Collection of deploy and publish tools for your Composer based WordPress plugins.",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Moritz Kornher",
+      "email": "mail@moritzkornher.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jumpstart\\": ""
+    }
+  },
+  "scripts": {
+    "publish": "Jumpstart\\Deploy::publish"
+  }
+}
